@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="netflix.css"> 
+</head>
+<body>
+    <div class="mainbody">
+        <div class="menu">
+            <h1 class="head">Playlists</h1>
+            <div class="Playlists">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>last played</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="playlistplays" id="1">
+                    <span>01</span>
+                    <img src="pictures/alan waker.jpg">
+                    <h3>On my way<br>
+                        <div class="subtitle">Alan Waker</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="2">
+                    <span>02</span>
+                    <img src="pictures/lutgaye.jpg">
+                    <h3>Lut gaye<br>
+                        <div class="subtitle">Alan Waker</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill" ></i>
+                </li>
+                <li class="playlistplays" id="3">
+                    <span>03</span>
+                    <img src="pictures/rahatfateh.png">
+                    <h3>back2love<br>
+                        <div class="subtitle">rahatfateh ali khan</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="4">
+                    <span>04</span>
+                    <img src="pictures/balma.jpeg">
+                    <h3>Balma<br>
+                        <div class="subtitle">Alan Waker</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="5">
+                    <span>05</span>
+                    <img src="pictures/o mere dil ke chain.jpg">
+                    <h3>o mere dil ke chain<br>
+                        <div class="subtitle">sanam</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="6">
+                    <span>06</span>
+                    <img src="pictures/dilabar.jpg">
+                    <h3>dilbar<br>
+                        <div class="subtitle">Dilbar</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="7">
+                    <span>07</span>
+                    <img src="pictures/sunset.jpeg">
+                    <h3>Lofi<br>
+                        <div class="subtitle">Alan Waker</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+                <li class="playlistplays" id="8">
+                    <span>08</span>
+                    <img src="pictures/pasoori.jpg">
+                    <h3>Pasoori<br>
+                        <div class="subtitle">Alan Waker</div>
+                    </h3>
+                    <i class="bi playlistplay bi-play-circle-fill"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song">
+            <nav class="main_nav">
+                <div>
+                    <ul class="nav">
+                        <li>Dicovery<span></span></li>
+                        <li>My libarary</li>
+                        <li>radio</li>
+                    </ul>
+                </div>
+                <div class="Input">
+                    <i class="bi bi-search"></i>
+                    <input class="input" placeholder="search music...">
+                </div>
+                <div>
+                    <img src="pictures/arijit_singh-removebg-preview.png">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Harrdy sandhu</h1>
+                <p>Its very important for me to be in touch with my fans, because Im so thankful and so lucky to have so many people who admire and love my music, and I want to keep doing the same in future</p>
+                <button>play</button>
+                <button class="btn">podcast</button>
+            </div>
+            <div class="popular">
+                <span>popular</span>
+                <span>
+                    <i id="left"  class="bi bi-arrow-left-short"></i>
+                    <i id="right" class="bi bi-arrow-right-short"></i>
+                </span>
+            </div>
+            <div class="popular1">
+                <div>
+                    <div class="music" id="11">
+                        <img src="pictures/arijit-singh-copy_ddzh.1248.webp">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>Bewafa</h1>
+                </div>
+                <div>
+                    <div class="music" id="12">
+                        <img src="pictures/8665_resize2x_200x200.webp">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>Jhoome jo pathan</h1>
+                </div>
+                <div>
+                    <div class="music" id="13">
+                        <img src="pictures/befikre.jpg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>befikre</h1>
+                </div>
+                <div>
+                    <div class="music" id="14">
+                        <img src="pictures/images.jpeg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>Dil chori</h1>
+                </div>
+                <div>
+                    <div class="music" id="15">
+                        <img src="pictures/psycho saiya.jpeg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>psycho saiya</h1>
+                </div>
+                <div>
+                    <div class="music" id="16">
+                        <img src="pictures/Besharam_Rang_song.jpg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>besharam rang</h1>
+                </div>
+                <div>
+                    <div class="music" id="17">
+                        <img src="pictures/desi kalakaar.jpeg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>desi kalakaar</h1>
+                </div>
+                <div>
+                    <div class="music" id="18">
+                        <img src="pictures/blue eyes.jpg">
+                        <p><i class="bi bi-play-circle"></i></p>
+                    </div>
+                    <h1>Blue Eyes</h1>
+                </div> 
+            </div>
+            <div class="line">
+            </div>
+            <div class="heading">
+                <h1>Artist</h1>
+                <span>
+                    <i id="leftarr"  class="bi bi-arrow-left-short"></i>
+                    <i id="rightarr" class="bi bi-arrow-right-short"></i>
+                </span>
+            </div>
+            <div class="artist">
+                <div>
+                    <div class="artists">
+                        <img src="pictures/parmish.jpeg">
+                    </div>
+                    <h1>Parmish verma</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/Honey-Singh-2.avif">
+                    </div>
+                    <h1>Honey-Singh</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/sonu nigam.jpeg">
+                    </div>
+                    <h1>Sonu nigam</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/jubin nautiyal.webp">
+                    </div>
+                    <h1>Jubin nautiyal</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/diljit.jpg">
+                    </div>
+                    <h1>Diljit</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/jubin nautiyal.webp">
+                    </div>
+                    <h1>Jubin nautiyal</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/jubin nautiyal.webp">
+                    </div>
+                    <h1>Jubin nautiyal</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/jubin nautiyal.webp">
+                    </div>
+                    <h1>Jubin nautiyal</h1>
+                </div>
+                <div>
+                    <div class="artists">
+                        <img src="pictures/jubin nautiyal.webp">
+                    </div>
+                    <h1>Jubin nautiyal</h1>
+                </div>  
+            </div>
+            <div class="video">
+                <video autoplay loop muted>
+                    <source src="Rubicon Drill _ Laddi Chahal (Official Video) _ Parmish Verma _ Gurlez Akhtar _ EP - Forever.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="player">
+            <div class="wave ">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="pictures/om shanti.jpeg" alt="" id="poster_image1">
+            <h3 class="title ">om shanti om <br>
+                <div class="subtitle">Geeta devi</div>
+            </h3>
+            <div class="icons">
+                <i class="bi bi-music-note-beamed"></i>
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill started"></i>
+                <i class="bi bi-skip-end-fill"></i>
+                <i class="bi down bi-cloud-arrow-down"></i>
+            </div>
+            <span class="1s">00:00</span>
+            <div class="scroll">
+                <div></div>
+                <input type="range" min="0" max="100">
+            </div>
+            <span class="2s">00:00</span>
+            <i class="bi bi-volume-down-fill"></i>
+            <div class="scroll2">
+                <div></div>
+                <input type="range" min="0" max="15">
+            </div>
+            <span class="3s">00</span>
+
+        </div>
+        
+    </div>
+    <script src="netflix.js"></script>
+</body>
+</html>
